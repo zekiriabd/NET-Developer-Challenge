@@ -10,18 +10,18 @@
 
 
 <p>
-La solution est constitué de trois projets : 
-  - LemonwayWebservice ASP.NET SOAP WebService : ce projet est subdivisé en trois répertoire 
-       1- La couche Controllers : Expose les web methodes Fibonacci et XmlToJson dans deux services asmx.
-       2- La couche Services : Core de l'application résponsable des traitement et das calculs. On y trouve deux interfaces qui peuvent servir à l'injection des dependances dans les tests.   
-       3- Models : Contient l'objet, Dto, utilisé pour encapsuler le string XML. cela pour éviter l'erreur 	de sécurité IIS. 
+La solution est constituée de trois projets : 
+1- Lemonway Webservice ASP.NET SOAP WebService : ce projet est subdivisé en trois répertoire  
+      - La couche Controllers : Expose les web méthodes Fibonacci et XmlToJson dans deux services asmx.  
+      - La couche Services : Core de l'application responsable des traitements et des calculs.  
+          On y trouve deux interfaces qui peuvent servir à l'injection des dépendances dans les tests. 
+      - Models : Contient l'objet, Dto, utilisé pour encapsuler le string XML.  
+                 Cela pour éviter l'erreur de sécurité IIS. 
 
-j'ai fixé l'Url du projet dans IIS Express à cette adresse : http://localhost:8089/
+J'ai fixé l'Url du projet dans IIS Express à cette adresse : http://localhost:8089/ 
 
-      
+2- ConsumerApp WinForm Application : L'application cliente qui consomme les deux services en mode asynchrone. 
 
-  - ConsumerApp WinForm Application : L'application cliente qui consome les deux services en mode 		asyncrone.
-
-  - LemonwayWebserviceTest Test Application : Projet de test unitaire. Ou j'appelle dirrectement la couche service pour tester mes web methodes.
-   
+3- LemonwayWebserviceTest Test Application : Projet de test unitaire. Ou j'appelle directement la couche service pour tester mes web méthodes. 
+ 
 </p>
