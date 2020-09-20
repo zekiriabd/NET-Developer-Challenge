@@ -16,12 +16,12 @@ namespace LemonwayWebservice
 
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public int? Fibonacci(int n)
+        public decimal? Fibonacci(int n)
         {
             Log.Info("Call FibonacciAsync");
             try
             {
-                var result = fibonacciService.FibonacciAsync(n);
+                var result = fibonacciService.Fibonacci(n);
                 Log.Info(" Result : " + result);
                 return result;
             }

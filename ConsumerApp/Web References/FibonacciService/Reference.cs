@@ -75,10 +75,10 @@ namespace ConsumerApp.FibonacciService {
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/Fibonacci", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public System.Nullable<int> Fibonacci(int n) {
+        public System.Nullable<decimal> Fibonacci(int n) {
             object[] results = this.Invoke("Fibonacci", new object[] {
                         n});
-            return ((System.Nullable<int>)(results[0]));
+            return ((System.Nullable<decimal>)(results[0]));
         }
         
         /// <remarks/>
@@ -139,10 +139,10 @@ namespace ConsumerApp.FibonacciService {
         }
         
         /// <remarks/>
-        public System.Nullable<int> Result {
+        public System.Nullable<decimal> Result {
             get {
                 this.RaiseExceptionIfNecessary();
-                return ((System.Nullable<int>)(this.results[0]));
+                return ((System.Nullable<decimal>)(this.results[0]));
             }
         }
     }

@@ -12,15 +12,15 @@ namespace LemonwayWebserviceTest
         public void TestMethod1()
         {
             FibonacciService fibonacciService = new FibonacciService();
-            //Assert.IsTrue(fibonacciService.FibonacciAsync(1).Result == 1);
-            Assert.IsTrue(fibonacciService.FibonacciAsync(2).Result == 1);
-            Assert.IsTrue(fibonacciService.FibonacciAsync(3).Result == 2);
-            Assert.IsTrue(fibonacciService.FibonacciAsync(4).Result == 3);
-            Assert.IsTrue(fibonacciService.FibonacciAsync(6).Result == 8);
-            Assert.IsTrue(fibonacciService.FibonacciAsync(-101).Result == -1);
-            Assert.IsTrue(fibonacciService.FibonacciAsync(100).Result == -1);
+            Assert.IsTrue(fibonacciService.Fibonacci(1) == 1);
+            Assert.IsTrue(fibonacciService.Fibonacci(2) == 1);
+            Assert.IsTrue(fibonacciService.Fibonacci(3) == 2);
+            Assert.IsTrue(fibonacciService.Fibonacci(4) == 3);
+            Assert.IsTrue(fibonacciService.Fibonacci(6) == 8);
+            Assert.IsTrue(fibonacciService.Fibonacci(-101) == -1);
+            Assert.IsTrue(fibonacciService.Fibonacci(1000) == -1);
         }
 
-        
+
     }
 }
