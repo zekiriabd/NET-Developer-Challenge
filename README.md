@@ -1,7 +1,6 @@
 # NET-Developer-Challenge
 
 #### Responce webservice challenge
-## Platform Support
 
 |Nuget|Version|
 | ------------------- | :------------------: |
@@ -10,7 +9,7 @@
 
 
 
-<p>La solution est constituée de trois projets : </p>
+#La solution est constituée de trois projets :
 
 <p>1- xxWebservice ASP.NET SOAP WebService : ce projet est subdivisé en trois répertoire  </p>
 <p>      - La couche Controllers : Expose les web méthodes Fibonacci et XmlToJson dans deux services asmx.  </p>
