@@ -9,7 +9,7 @@
 |Newtonsoft.Json 12.0.3|
 
 
-<p align="center">
+<p>
 La solution est constitué de trois projets : 
   - LemonwayWebservice ASP.NET SOAP WebService : ce projet est subdivisé en trois répertoire 
        1- La couche Controllers : Expose les web methodes Fibonacci et XmlToJson dans deux services asmx.
