@@ -1,6 +1,6 @@
 # NET-Developer-Challenge
 
-#### Responce lemonway webservice challenge
+#### Responce webservice challenge
 ## Platform Support
 
 |Nuget|Version|
@@ -12,7 +12,7 @@
 
 <p>La solution est constituée de trois projets : </p>
 
-<p>1- Lemonway Webservice ASP.NET SOAP WebService : ce projet est subdivisé en trois répertoire  </p>
+<p>1- xxWebservice ASP.NET SOAP WebService : ce projet est subdivisé en trois répertoire  </p>
 <p>      - La couche Controllers : Expose les web méthodes Fibonacci et XmlToJson dans deux services asmx.  </p>
 <p>      - La couche Services : Core de l'application responsable des traitements et des calculs.  </p>
 <p>          On y trouve deux interfaces qui peuvent servir à l'injection des dépendances dans les tests. </p>
@@ -23,7 +23,7 @@
 
 <p>2- ConsumerApp WinForm Application : L'application cliente qui consomme les deux services en mode asynchrone. </p>
 
-<p>3- LemonwayWebserviceTest Test Application : Projet de test unitaire. Ou j'appelle directement la couche service pour tester mes web méthodes. </p>
+<p>3- xxWebserviceTest Test Application : Projet de test unitaire. Ou j'appelle directement la couche service pour tester mes web méthodes. </p>
  
 <p align="center">
   <img src="https://i.imgur.com/eKEJk9J.png" alt="badges" style="margin:auto">
