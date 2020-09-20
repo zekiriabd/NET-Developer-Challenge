@@ -25,4 +25,6 @@
 
 <p>3- LemonwayWebserviceTest Test Application : Projet de test unitaire. Ou j'appelle directement la couche service pour tester mes web méthodes. </p>
  
-
+<p align="center">
+  <img src="https://i.imgur.com/eKEJk9J.png" alt="badges" style="margin:auto">
+</p>
