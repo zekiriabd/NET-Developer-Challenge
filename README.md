@@ -3,10 +3,10 @@
 #### Responce lemonway webservice challenge
 ## Platform Support
 
-|Nuget|Packages|
+|Nuget|Version|
 | ------------------- | :------------------: |
-|Log4net 2.0.10|
-|Newtonsoft.Json 12.0.3|
+|Log4net|2.0.10|
+|Newtonsoft.Json| 12.0.3|
 
 
 
